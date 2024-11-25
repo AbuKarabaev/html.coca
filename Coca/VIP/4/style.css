@@ -1,0 +1,123 @@
+/* 4 */
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1601px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+.date-info {
+    background: url('./assets/svg/blockxs.svg') center no-repeat;
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.date-wrap {
+    display: flex;
+    margin-top: 412px;
+
+    h1 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 275;
+        font-size: 160px;
+        line-height: 1;
+        text-align: center;
+        color: #fff;
+
+        a {
+            color: #fff;
+        }
+    }
+
+    h2 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 275;
+        font-size: 44px;
+        line-height: 1;
+        text-align: center;
+        color: #fff;
+        margin-top: 100px;
+        margin-left: 20px;
+
+        a {
+            color: #fff;
+        }
+    }
+}
+
+.monthday {
+    display: flex;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 10px;
+
+    p {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 1.5;
+        text-align: center;
+        color: #fff;
+
+        a {
+            color: #fff;
+        }
+    }
+}
+
+.logi-text {
+    h1 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 1.5;
+        color: #fff;
+
+        a {
+            color: #fff;
+        }
+    }
+
+    p {
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-size: 18px;
+        color: #fff;
+
+        a {
+            color: #fff;
+
+            span {
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+.login-block {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 268px;
+    padding-bottom: 64px;
+    gap: 24px;
+}

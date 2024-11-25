@@ -1,0 +1,118 @@
+/* 2 */
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1601px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+.clock {
+    background: url('./assets/svg/clock.svg') center no-repeat;
+    width: 100%;
+}
+
+.wrap-svg {
+    p {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.4;
+        color: #e1e1e1;
+        margin-top: 16px;
+        text-align: center;
+    }
+}
+
+.wrap-svg2 {
+    p {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #fff;
+        margin-top: 16px;
+        text-align: center;
+    }
+}
+
+.wrap {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 430px;
+    gap: 80px;
+}
+
+.btn {
+    display: inline-block;
+    button {
+        border-radius: 58px;
+        padding: 12px;
+        width: 172px;
+        height: 48px;
+        background: #fff5ee;
+        border: 0;
+        a {
+            font-family: "Poppins", sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 1.5;
+            color: #ff5c00;
+        }
+    }
+}
+
+.btn:hover {
+    button {
+        background: #ff5c00;
+        a {
+            color: #fff;
+        }
+    }
+}
+
+.login-btn {
+    display: inline-block;
+    width: 100%;
+    button {
+        border: 1px solid #ff5c00;
+        border-radius: 58px;
+        padding: 12px;
+        width: 360px;
+        height: 48px;
+        backdrop-filter: blur(20px);
+        background: rgba(255, 255, 255, 0.04);
+
+        a {
+            font-family: "Poppins", sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 1.5;
+            color: #ff5c00;
+        }
+    }
+}
+
+.wrap-btn {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 50px;
+}
+
+.login-btn {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 16px;
+    padding-bottom: 268px;
+}

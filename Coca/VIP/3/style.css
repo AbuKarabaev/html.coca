@@ -1,0 +1,153 @@
+/* 3 */
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1601px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+.block {
+    background: url('./assets/svg/block.svg') center no-repeat;
+    width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 111px;
+    gap: 80px;
+}
+
+.wrapper-svg {
+    p {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.4;
+        color: #e1e1e1;
+        margin-top: 16px;
+        text-align: center;
+    }
+}
+
+.wrapper-svg2 {
+    p {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #fff;
+        margin-top: 16px;
+        text-align: center;
+    }
+}
+
+.pin {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 44px;
+}
+
+
+.pin-input {
+    input {
+        border: 0;
+        outline: 0;
+        background-color: transparent;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 1.5;
+        text-align: center;
+        color: #fff;
+        opacity: 1;
+    }
+}
+
+.tip {
+    margin-top: 55px;
+}
+
+.number {
+    display: flex;
+    gap: 16px;
+}
+
+.unlock-btn:hover {
+    button {
+        background: #d14e02;
+    }
+}
+
+.unlock-btn {
+    margin-top: 25px;
+
+    button {
+        border-radius: 58px;
+        padding: 12px;
+        width: 404px;
+        height: 48px;
+        background: #ff5c00;
+        border: 0;
+        outline: 0;
+    }
+
+    a {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #fff;
+    }
+}
+
+.btn-number {
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    border-radius: 160px;
+    width: 124px;
+    height: 80px;
+    backdrop-filter: blur(16px);
+    background: rgba(67, 67, 67, 0.1);
+    margin-bottom: 16px;
+
+
+    h3 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 1.5;
+        text-align: center;
+        color: #fff;
+        padding: 18px 30px;
+
+        a {
+            color: #fff;
+        }
+    }
+}
+
+.text {
+    text-align: center;
+    margin-top: 75px;
+    padding-bottom: 44px;
+    a {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        color: #fff;
+    }
+}
